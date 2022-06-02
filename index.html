@@ -1,42 +1,68 @@
 <html>
-  <head>
-      <title>I did a thing!</title>
-  </head>
-  <body>
-    <header id="header">
+
+<head>
+  <title>I did a thing!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="main-page_header">
+      <header>
         <h1>I did a thing!</h1>
         <h2>I did a thing!</h2>
         <h3>I did a thing!</h3>
         <h4>I did a thing!</h4>
         <h5>I did a thing!</h5>
         <h6>I did a thing!</h6>
-    </header>
-    <nav>
+      </header>
+    </div>
+    <div>
+      <nav class="main-page_nav">
         <a href="sibling_page.html">I did a thing!</a>
-    </nav>
-    <p>I did a thing! A thing is what I did. <span style="color:red">This is proof that I have indeed done a thing.</span></p>
-    <a href="https://www.google.com">Google a thing</a>
-    <table>
+      </nav>
+    </div>
+    <div class="main-page_parag">
+      <p id="thing">I did a thing! A thing is what I did. <span style="color:red">This is proof that I have indeed done a
+          thing.</span></p>
+    </div>
+    <div class="main-page_link">
+      <a href="https://www.google.com">Google a thing</a>
+    </div>
+    <div class="main-page_table">
+      <table>
         <tr>
-          <th>Thing</th>
-          <th>did</th>
+          <th this="thing">Thing</th>
+          <th this="did">did</th>
         </tr>
         <tr>
-          <td>I did</td>
-          <td>Yes!</td>
+          <td this="thing">I did</td>
+          <td this="did">Yes!</td>
         </tr>
         <tr>
-            <td>I did not</td>
-            <td></td>
-          </tr>
+          <td>I did not</td>
+          <td></td>
+        </tr>
       </table>
-    <img src="https://c.tenor.com/9im1YQbtaw4AAAAC/we-did-a-thing-worth.gif">
-    <footer id="footer">
-        <p class="important">To do a thing you must:</p>
-        <ol type="A">
+    </div>
+    <div class="main-page_pic">
+      <img id="thing_pic" src="https://c.tenor.com/9im1YQbtaw4AAAAC/we-did-a-thing-worth.gif">
+    </div>
+    <footer class="footer">
+      <div>
+        <div>
+          <p class="important">To do a thing you must:</p>
+        </div>
+        <div>
+          <ol type="A">
             <li>Do a thing.</li>
             <li>Tell everyone you did a thing.</li>
-        </ol>
+          </ol>
+        </div>
+
+      </div>
     </footer>
-  </body>
+  </div>
+</body>
+
 </html>
