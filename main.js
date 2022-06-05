@@ -7,7 +7,9 @@ $(document).ready(function () {
 
 
 $(document).ready(function () {
-  $("button").on("click", function () {
-    $(thing).text("See! You did a thing NOW!");
+  $("button").click( function () {
+    $("#thing").toggle();
+    $(".main-page_header").css("color", "red");
+    $(".main-page_header").css("text-align", "center");
   });
 });
